@@ -96,7 +96,7 @@ function Navbar() {
         <div className={Style.navbar_container_right}>
           {/* Discover Menu */}
           <div className={Style.navbar_container_right_discover}>
-            <p onClick={(e) => openManu(e)}>Discover new</p>
+            <p onClick={(e) => openManu(e)}>Discover</p>
             {discover && (
               <div className={Style.navbar_container_right_discover_box}>
                 <Discover />
