@@ -1,9 +1,12 @@
-import Image from 'next/image'
+import Image from "next/image";
+
+import Style from "./index.module.css";
+import { HeroSection } from "./components/componentindex";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Home
-    </main>
-  )
+    <div className={Style.homePage}>
+      <HeroSection />
+    </div>
+  );
 }
