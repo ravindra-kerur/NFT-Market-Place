@@ -53,7 +53,7 @@
     background-color: var(--icons-color);
     color: var(--shadow-dark-color);
     border-radius: 5rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .subscribe_box input {
