@@ -20,6 +20,9 @@
 
   --box-shadow2: 0rem 0rem 0rem var(--shadow-dark-color),
     -3rem -3rem 1rem var(--shadow-dark-color);
+
+  --box-shadow3: 0rem 3rem 2rem var(--shadow-dark-color),
+    0rem 0rem 1rem var(--shadow-dark-color);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,7 +36,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   background-color: var(--main-bg-color);
   color: var(--icons-color);
