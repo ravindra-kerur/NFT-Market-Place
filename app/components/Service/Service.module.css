@@ -1,7 +1,8 @@
 .service {
   width: 80%;
-  margin: 3rem auto;
-  margin-block: 4rem;
+  margin: 1rem auto;
+  /* margin: 3rem auto;
+  margin-block: 4rem; */
 }
 
 .service_box {
