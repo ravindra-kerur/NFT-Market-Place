@@ -7,6 +7,7 @@ import {
   BigNFTSlider,
   Subscribe,
   Title,
+  Category,
 } from "./components/componentindex";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         heading="Browse by Category"
         paragraph="Explore the NFTs in the most featured categories"
       />
+      <Category />
     </div>
   );
 }
