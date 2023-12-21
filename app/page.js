@@ -6,6 +6,7 @@ import {
   Service,
   BigNFTSlider,
   Subscribe,
+  Title,
 } from "./components/componentindex";
 
 export default function Home() {
@@ -15,6 +16,10 @@ export default function Home() {
       <Service />
       <BigNFTSlider />
       <Subscribe />
+      <Title
+        heading="Browse by Category"
+        paragraph="Explore the NFTs in the most featured categories"
+      />
     </div>
   );
 }
