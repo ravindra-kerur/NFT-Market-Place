@@ -8,6 +8,7 @@ import {
   Subscribe,
   Title,
   Category,
+  Filter,
 } from "./components/componentindex";
 
 export default function Home() {
@@ -16,12 +17,17 @@ export default function Home() {
       <HeroSection />
       <Service />
       <BigNFTSlider />
-      <Subscribe />
+      <Title
+        heading="Featured NFTs"
+        paragraph="ExploreDiscover the most outstanding NFTs in all topics of life"
+      />
+      <Filter />
       <Title
         heading="Browse by Category"
         paragraph="Explore the NFTs in the most featured categories"
       />
       <Category />
+      <Subscribe />
     </div>
   );
 }
