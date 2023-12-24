@@ -10,6 +10,7 @@ import {
   Category,
   Filter,
   NFTCard,
+  Collection,
 } from "./components/componentindex";
 
 export default function Home() {
@@ -18,6 +19,11 @@ export default function Home() {
       <HeroSection />
       <Service />
       <BigNFTSlider />
+      <Title
+        heading="New Collection"
+        paragraph="ExploreDiscover the most outstanding NFTs in all topics of life"
+      />
+      <Collection />
       <Title
         heading="Featured NFTs"
         paragraph="ExploreDiscover the most outstanding NFTs in all topics of life"
