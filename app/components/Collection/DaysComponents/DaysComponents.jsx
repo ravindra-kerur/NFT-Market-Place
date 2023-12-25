@@ -16,7 +16,7 @@ function DaysComponents() {
             alt="Profile background"
             width={500}
             height={300}
-            objectFit="covers"
+            objectFit="cover"
           />
         </div>
 
@@ -27,7 +27,7 @@ function DaysComponents() {
             width={200}
             height={200}
             className={Style.daysComponent_box_img_1}
-            objectFit="covers"
+            objectFit="cover"
           />
 
           <Image
@@ -36,7 +36,7 @@ function DaysComponents() {
             width={200}
             height={200}
             className={Style.daysComponent_box_img_2}
-            objectFit="covers"
+            objectFit="cover"
           />
 
           <Image
@@ -45,7 +45,7 @@ function DaysComponents() {
             width={200}
             height={200}
             className={Style.daysComponent_box_img_3}
-            objectFit="covers"
+            objectFit="cover"
           />
         </div>
 
@@ -58,7 +58,7 @@ function DaysComponents() {
                 alt="user profile"
                 width={30}
                 height={30}
-                objectFit="covers"
+                objectFit="cover"
                 className={Style.daysComponent_box_title_info_profile_img}
               />
 
