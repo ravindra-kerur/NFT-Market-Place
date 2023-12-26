@@ -12,6 +12,7 @@
   --icons-light-color: #4c577341;
   --icons-bg-color: #e2e6e9;
   --shadow-dark-color: #d3dae7;
+  --bg-shadow-dark-color: #dae0ea;
   --shadow-light-color: #fff;
   --main-bg-color: #ecf0f3;
 
@@ -19,7 +20,7 @@
     -1rem -1rem 1rem var(--shadow-light-color);
 
   --box-shadow2: 0rem 0rem 0rem var(--shadow-dark-color),
-    -3rem -3rem 1rem var(--shadow-dark-color);
+    -0.3rem -0.3rem 1rem var(--shadow-dark-color);
 
   --box-shadow3: 0rem 3rem 2rem var(--shadow-dark-color),
     0rem 0rem 1rem var(--shadow-dark-color);

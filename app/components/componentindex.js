@@ -11,6 +11,8 @@ import Filter from "./Filter/Filter";
 import NFTCard from "./NFTCard/NFTCard";
 import Collection from "./Collection/Collection";
 import FollowersTab from "./FollowersTab/FollowersTab";
+import AudioLive from "./AudioLive/AudioLive";
+import LikeProfile from "./LikeProfile/LikeProfile";
 
 export {
   Button,
@@ -26,4 +28,6 @@ export {
   NFTCard,
   Collection,
   FollowersTab,
+  AudioLive,
+  LikeProfile,
 };
