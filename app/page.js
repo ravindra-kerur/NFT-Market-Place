@@ -15,6 +15,7 @@ import {
   AudioLive,
   Slider,
   Brand,
+  Video,
 } from "./components/componentindex";
 
 export default function Home() {
@@ -44,6 +45,7 @@ export default function Home() {
       <Category />
       <Subscribe />
       <Brand />
+      <Video />
     </div>
   );
 }
