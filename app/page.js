@@ -13,6 +13,7 @@ import {
   Collection,
   FollowersTab,
   AudioLive,
+  Slider,
 } from "./components/componentindex";
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
       />
       <AudioLive />
       <FollowersTab />
+      <Slider />
       <Collection />
       <Title
         heading="Featured NFTs"
