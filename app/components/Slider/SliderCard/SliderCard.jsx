@@ -12,7 +12,7 @@ function SliderCard({ el, i }) {
       <div className={Style.sliderCard_box}>
         <motion.div className={Style.sliderCard_box_img}>
           <Image
-            src={images.creatorbackground1}
+            src={el.background}
             alt="Slider Profile"
             className={Style.sliderCard_box_img_img}
             width={500}

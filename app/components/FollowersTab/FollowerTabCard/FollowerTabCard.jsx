@@ -4,7 +4,6 @@ import { MdVerified } from "react-icons/md";
 import { TiTick } from "react-icons/ti";
 
 import Style from "./FollowerTabCard.module.css";
-import images from "./../../../img";
 
 function FollowerTabCard({ i, el }) {
   const [following, setFollowing] = useState(false);
@@ -29,7 +28,7 @@ function FollowerTabCard({ i, el }) {
         <div className={Style.FollowerTabCard_box_img}>
           <Image
             className={Style.FollowerTabCard_box_img_img}
-            src={images.creatorbackground1}
+            src={el.background}
             alt="profile background"
             width={500}
             height={300}
@@ -39,7 +38,7 @@ function FollowerTabCard({ i, el }) {
         <div className={Style.FollowerTabCard_box_profile}>
           <Image
             className={Style.FollowerTabCard_box_profile_img}
-            src={images.user1}
+            src={el.user}
             alt="profile picture"
             width={90}
             height={90}
