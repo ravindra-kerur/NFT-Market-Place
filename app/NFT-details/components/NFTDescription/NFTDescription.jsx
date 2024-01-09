@@ -83,18 +83,23 @@ function NFTDescription() {
       setHistory(false);
       setProvanance(true);
       setOwner(false);
+    } else if (btnText == "Owner") {
+      setHistory(false);
+      setProvanance(false);
+      setOwner(true);
     }
   };
 
-  const openOwner = (e) => {
-    if (!owner) {
-      setOwner(true);
-      setHistory(false);
-      setProvanance(false);
-    } else {
-      setOwner(false);
-    }
-  };
+  // const openOwner = (e) => {
+  //   if (!owner) {
+  //     setOwner(true);
+  //     setHistory(false);
+  //     setProvanance(false);
+  //   } else {
+  //     setOwner(false);
+  //     setHistory(true);
+  //   }
+  // };
 
   return (
     <div className={Style.NFTDescription}>
@@ -282,7 +287,8 @@ function NFTDescription() {
             <div className={Style.NFTDescription_box_profile_biding_box_tabs}>
               <button onClick={(e) => openTabs(e)}>Bid History</button>
               <button onClick={(e) => openTabs(e)}>Provanance</button>
-              <button onClick={(e) => openOwner(e)}>Owner</button>
+              {/* <button onClick={(e) => openOwner(e)}>Owner</button> */}
+              <button onClick={(e) => openTabs(e)}>Owner</button>
             </div>
 
             {history && (

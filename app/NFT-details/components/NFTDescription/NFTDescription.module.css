@@ -147,13 +147,14 @@
 }
 
 .NFTDescription_box_profile_biding_box_price_bid {
-  border: 2px solid var(--icons-color);
+  border: 2px solid #4a976a;
   border-radius: 0.5rem;
+  color: #4a976a;
 }
 
 .NFTDescription_box_profile_biding_box_price_bid small {
   font-size: 0.9rem;
-  background-color: var(--icons-color);
+  background-color: #4a976a;
   color: var(--main-bg-color);
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
