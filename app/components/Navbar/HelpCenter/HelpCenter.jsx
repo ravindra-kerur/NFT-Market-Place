@@ -11,15 +11,15 @@ function HelpCenter() {
     },
     {
       name: "Contact Us",
-      link: "contact-us",
+      link: "contactUs",
     },
     {
       name: "Sign Up",
-      link: "sign-up",
+      link: "signUp",
     },
     {
       name: "Sign In",
-      link: "sign-in",
+      link: "signIn",
     },
     {
       name: "Subscription",
