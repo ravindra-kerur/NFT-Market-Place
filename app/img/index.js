@@ -42,6 +42,11 @@ import nft_image_3 from "./nft-image-3.png";
 import musiceWave from "./musicwave.png";
 import update from "./update.png";
 import earn from "./eran.png";
+import jamesAnderson from "./James-Anderson.jpg";
+import rickeyPointing from "./Rickey-Pointing.jpg";
+import rossTaylor from "./Ross-Taylor.jpg";
+import brainLara from "./Brian-Lara.jpg";
+import aboutUs from "./about-Us.png";
 
 export default {
   collection,
@@ -88,4 +93,9 @@ export default {
   youtube,
   zgcmq,
   earn,
+  jamesAnderson,
+  rickeyPointing,
+  rossTaylor,
+  brainLara,
+  aboutUs
 };
