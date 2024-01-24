@@ -4,6 +4,8 @@ import "./globals.css";
 import NavBar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 
+import { NFTMarketPlaceProvider } from "./Context/NFTMarketPlaceContext";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -15,9 +17,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.classNameu}>
-        <NavBar />
-        {children}
-        <Footer />
+        <NFTMarketPlaceProvider>
+          <NavBar />
+          {children}
+          <Footer />
+        </NFTMarketPlaceProvider>
       </body>
     </html>
   );

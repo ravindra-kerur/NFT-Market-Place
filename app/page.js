@@ -1,3 +1,5 @@
+"use client";
+import React, { useState, useEffect, useContext } from "react";
 import Image from "next/image";
 
 import Style from "./index.module.css";
@@ -18,7 +20,15 @@ import {
   Video,
 } from "./components/componentindex";
 
+import { NFTMarketPlaceContext } from "./Context/NFTMarketPlaceContext";
+
 export default function Home() {
+  const { checkIfWalletIsConnected } = useContext(NFTMarketPlaceContext);
+
+  useEffect(() => {
+    checkIfWalletIsConnected();
+  }, []);
+
   return (
     <div className={Style.homePage}>
       <HeroSection />
